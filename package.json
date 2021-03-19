@@ -1,0 +1,41 @@
+{
+  "name": "mariafire",
+  "version": "1.2.0",
+  "description": "A fast, optimized and easy-to-use database manager. MariaDB has never been easier! Perfect for beginners!",
+  "main": "index.js",
+  "bin": {
+    "mariafire": "handler.js"
+  },
+
+  "directories": {
+    "lib": "lib"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsoulfire.git"
+  },
+
+  "dependencies": {
+    "better-sqlite3": "^6.0.1",
+    "lodash": "4.17.19"
+  },
+  "devDependencies": {},
+
+  "keywords": [
+ "database",
+    "storing",
+    "values",
+    "easy",
+	"mariadb",
+    "quickmaria",
+    "sqlite",
+    "sqlite3",
+    "db"
+  ],
+    "scripts": {
+    "test": "node spec/test.js"
+  },
+  "author": "Soulfire <ahmetcals68@gmail.com> (https://github.com/xsoulfire)",
+  "license": "MIT"
+}
